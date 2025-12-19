@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Dumpling Web</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🩵</text></svg>">
+    <title>The Carrot Web</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💜</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
@@ -16,8 +16,8 @@
     <div class="stars" id="stars"></div>
     <div class="floating-emojis" id="floating-emojis"></div>
 
-    <div class="container">
-        <h1>🩵 Late Proposal Of Love! 🩵</h1>
+        <div class="container">
+        <h1>💜 Late Proposal Of Love! 💜</h1>
         
         <div class="gif-container">
             <img id="main-gif" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzA1b3NkaHl1MnZuOG56ZnQxNjgzaXVkZWJncGRrNjZ2b2F0cTA1dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F4kMBYgYPv2tWWJvVE/giphy.gif" alt="Cute animation" class="gif">
@@ -38,7 +38,7 @@
                 <div class="front flap"></div>
                 <div class="front pocket"></div>
                 <div class="letter">
-                    <div class="words line1">To: My Dumpling 🩵</div>
+                    <div class="words line1">To: My Carrot, Yhasmine 🥕💜</div>
                     <div class="words main-text" id="letter-content"></div>
                     <div class="words signature">With all my love,<br><span id="sender-name">Your Love Elias</span></div>
                     <div class="words ps">P.S. - You're absolutely amazing! 🩵</div>
@@ -52,7 +52,7 @@
 
             <div class="letter-button-container">
                 <button class="letter-button" id="letter-button" onclick="toggleLetter()">Close Letter</button>
-                <button class="scale-btn" id="scale-btn" onclick="goToScalePage()">How Happy Are You Dumpling? 🥟</button>
+                <button class="scale-btn" id="scale-btn" onclick="goToScalePage()">How Happy Are You, Yhasmine? 🥕</button>
             </div>
         </div>
 
@@ -62,8 +62,8 @@
     <!-- Final Completion Modal -->
     <div id="final-modal" class="modal-overlay">
         <div class="modal-content">
-            <div class="modal-emoji">🥟🩵✨</div>
-            <h2 class="modal-title">Thank you little dumpling</h2>
+            <div class="modal-emoji">🥕💜✨</div>
+            <h2 class="modal-title">Thank you, my little carrot</h2>
             <p class="modal-text">Thank you for making my galaxy brighter. Ready to end our little adventure for now?</p>
             <div class="scale-button-container">
                 <button class="scale-btn-nav back" onclick="closeFinalModal()">← Back</button>
@@ -74,9 +74,9 @@
     <!-- Celebration Modal -->
     <div id="celebrate-modal" class="modal-overlay">
         <div class="modal-content">
-            <div class="modal-emoji">🥟✨🩵🌙</div>
-            <h2 class="modal-title">Dumpling Love Activated!</h2>
-            <p class="modal-text">You made the constellations twinkle, my little dumpling! 🥟💫</p>
+            <div class="modal-emoji">🥕✨💜🌙</div>
+            <h2 class="modal-title">Carrot Love Activated!</h2>
+            <p class="modal-text">You made the constellations twinkle, my little carrot! 🥕💫</p>
             <button class="modal-close" onclick="closeCelebrationModal()">Close</button>
         </div>
     </div>
@@ -90,8 +90,8 @@
                     ext: '.svg',
                     callback: function(icon, options, variant) {
                         switch (icon) {
-                            case '1fa75': return false; // 🥟 dumpling
-                            case '1fa77': return false; // 🩵 light blue heart
+                            case '1f955': return false; // 🥕 carrot
+                            case '1f49c': return false; // 💜 purple heart
                             case '2728': return false; // ✨ sparkles
                             case '1f319': return false; // 🌙 moon
                             case '2601': return false; // ☁️ cloud

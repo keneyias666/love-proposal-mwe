@@ -19,13 +19,13 @@ const happinessMessages = {
     4: '😸 I can make it better!',
     5: '😺 That\'s a good start!',
     6: '😻 You\'re making me so happy!',
-    7: '😻 I love you so much dumpdump!',
+    7: '😻 I love you so much, Yhasmine!',
     8: '🐱 You mean the world to me!',
     9: '😻 I\'m just the luckiest person alive!',
-    10:'😻 I LOVE YOU MY DUMPLING!🩵☁️'
+    10:'😻 I LOVE YOU MY CARROT!💜☁️'
 };
 
-const emojis = ['👾', '😿', '😾', '😼', '😸', '😺', '😻', '🫶', '🥟', '🩵'];
+const emojis = ['👾', '😿', '😾', '😼', '😸', '😺', '😻', '🫶', '🥕', '💜'];
 
 // Create twinkling stars
 function createStars() {
@@ -253,11 +253,11 @@ function showNoButtonMessage() {
     }, 3000);
 }
 
-// Floating background emojis (space + dumpling vibe)
+// Floating background emojis (space + carrot vibe)
 function createFloatingEmojis() {
     const container = document.getElementById('floating-emojis');
     if (!container) return;
-    const items = ['🥟','🩵','✨','🌙','☁️','🪐','🌌','👾','⭐'];
+    const items = ['🥕','💜','✨','🌙','☁️','🪐','🌌','👾','⭐'];
     for (let i = 0; i < 24; i++) {
         const el = document.createElement('div');
         el.className = 'emoji-float';
@@ -288,7 +288,7 @@ function goToScalePage() {
     const scalePage = document.createElement('div');
     scalePage.className = 'container scale-page show';
     scalePage.innerHTML = `
-        <h1>🐱 How Happy Are You Dumpling? 🌙✨</h1>
+        <h1>🐱 How Happy Are You, Yhasmine? 🌙✨</h1>
         <p class="scale-subtitle">Drag the slider to show me! 👉☁️</p>
         
         <div class="happiness-gif-container">
@@ -309,7 +309,7 @@ function goToScalePage() {
 
         <div class="scale-button-container">
             <button class="scale-btn-nav back" onclick="goBackToLetter()">← Back</button>
-            <button class="scale-btn-nav" onclick="submitHappiness()">Submit 🩵☁️</button>
+            <button class="scale-btn-nav" onclick="submitHappiness()">Submit 💜☁️</button>
         </div>
     `;
     document.body.appendChild(scalePage);
@@ -402,9 +402,9 @@ function goodbyeAndClose() {
     closeFinalModal();
     const body = document.body;
     const curtain = document.createElement('div');
-    curtain.style.cssText = 'position:fixed;inset:0;background:linear-gradient(135deg,#0f3460,#16213e);display:flex;align-items:center;justify-content:center;color:#fff;z-index:10000;';
+    curtain.style.cssText = 'position:fixed;inset:0;background:linear-gradient(135deg,#2b0038,#4b0a5a);display:flex;align-items:center;justify-content:center;color:#fff;z-index:10000;';
     const msg = document.createElement('div');
-    msg.textContent = 'Goodbye for now, my Dumpling 🩵';
+    msg.textContent = 'Goodbye for now, my Carrot 💜';
     msg.style.fontFamily = "'Dancing Script', cursive";
     msg.style.fontSize = '2.2rem';
     msg.style.textAlign = 'center';

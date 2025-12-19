@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', 'Apple Color Emoji', 'Twemoji', Tahoma, Geneva, Verdana, system-ui, sans-serif;
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    background: linear-gradient(135deg, #1b0033 0%, #3b0a45 50%, #5b0e67 100%);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -49,15 +49,15 @@ body {
 
 .container {
     text-align: center;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.97) 0%, rgba(255, 240, 245, 0.97) 100%);
+    background: linear-gradient(135deg, rgba(255, 245, 252, 0.97) 0%, rgba(250, 232, 255, 0.97) 100%);
     padding: 60px;
     border-radius: 40px;
-    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5), 0 0 40px rgba(100, 200, 255, 0.3);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5), 0 0 40px rgba(255, 143, 216, 0.4);
     max-width: 700px;
     z-index: 1;
     animation: slideIn 0.8s ease-out;
     backdrop-filter: blur(10px);
-    border: 2px solid rgba(100, 200, 255, 0.3);
+    border: 2px solid rgba(199, 125, 255, 0.4);
 }
 
 @keyframes slideIn {
@@ -72,7 +72,7 @@ body {
 }
 
 h1 {
-    background: linear-gradient(135deg, #5ac8fa 0%, #667eea 100%);
+    background: linear-gradient(135deg, #ff6fb5 0%, #c77dff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -102,9 +102,9 @@ h1 {
     max-width: 100%;
     max-height: 100%;
     border-radius: 20px;
-    box-shadow: 0 15px 40px rgba(107, 188, 240, 0.3);
+    box-shadow: 0 15px 40px rgba(199, 125, 255, 0.35);
     animation: gifFloat 3s ease-in-out infinite;
-    border: 3px solid rgba(107, 188, 240, 0.35);
+    border: 3px solid rgba(255, 143, 216, 0.4);
 }
 
 @keyframes gifFloat {
@@ -114,7 +114,7 @@ h1 {
 
 .message {
     font-size: 1.4em;
-    background: linear-gradient(135deg, #333 0%, #666 100%);
+    background: linear-gradient(135deg, #4a154b 0%, #7b1fa2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -141,7 +141,7 @@ h1 {
 .modal-overlay {
     position: fixed;
     inset: 0;
-    background: radial-gradient(60% 60% at 50% 40%, rgba(20, 24, 60, 0.85) 0%, rgba(12, 16, 38, 0.95) 65%, rgba(5, 10, 25, 0.98) 100%);
+    background: radial-gradient(60% 60% at 50% 40%, rgba(46, 0, 71, 0.9) 0%, rgba(24, 0, 52, 0.97) 65%, rgba(14, 0, 36, 0.99) 100%);
     display: none;
     align-items: center;
     justify-content: center;
@@ -155,9 +155,9 @@ h1 {
 
 .modal-content {
     position: relative;
-    background: linear-gradient(180deg, rgba(18, 22, 50, 0.9) 0%, rgba(16, 12, 40, 0.9) 100%);
+    background: linear-gradient(180deg, rgba(39, 0, 70, 0.9) 0%, rgba(26, 0, 52, 0.95) 100%);
     border: 1px solid rgba(255, 255, 255, 0.12);
-    box-shadow: 0 25px 80px rgba(0,0,0,0.6), 0 0 80px rgba(107, 188, 240, 0.28), 0 0 80px inset rgba(154, 208, 245, 0.18);
+    box-shadow: 0 25px 80px rgba(0,0,0,0.6), 0 0 80px rgba(255, 143, 216, 0.35), 0 0 80px inset rgba(199, 125, 255, 0.25);
     border-radius: 24px;
     padding: 28px 32px;
     width: min(540px, 92vw);
@@ -183,7 +183,7 @@ h1 {
     opacity: 0.6;
 }
 .modal-content::after {
-    background: linear-gradient(135deg, rgba(107, 188, 240, 0.22), rgba(154, 208, 245, 0.22));
+    background: linear-gradient(135deg, rgba(255, 143, 216, 0.28), rgba(199, 125, 255, 0.28));
     filter: blur(18px);
     z-index: -1;
 }
@@ -196,11 +196,11 @@ h1 {
 .modal-emoji {
     font-size: 2.2em;
     margin-bottom: 10px;
-    filter: drop-shadow(0 0 10px rgba(255, 105, 180, 0.45));
+    filter: drop-shadow(0 0 10px rgba(255, 143, 216, 0.8));
 }
 
 .modal-title {
-    background: linear-gradient(135deg, #6bbcf0 0%, #9ad0f5 100%);
+    background: linear-gradient(135deg, #ff6fb5 0%, #c77dff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -218,11 +218,11 @@ h1 {
     padding: 10px 24px;
     border: 1px solid rgba(255,255,255,0.25);
     border-radius: 50px;
-    background: linear-gradient(135deg, #6bbcf0 0%, #9ad0f5 100%);
+    background: linear-gradient(135deg, #ff6fb5 0%, #c77dff 100%);
     color: #fff;
     font-weight: 700;
     cursor: pointer;
-    box-shadow: 0 10px 30px rgba(118, 75, 162, 0.35);
+    box-shadow: 0 10px 30px rgba(199, 125, 255, 0.45);
 }
 .modal-close:hover { filter: brightness(1.08); transform: translateY(-1px); }
 
@@ -238,7 +238,7 @@ h1 {
     position: absolute;
     animation: float-up 10s linear infinite;
     opacity: 0.6;
-    filter: drop-shadow(0 0 8px rgba(107, 188, 240, 0.35));
+    filter: drop-shadow(0 0 8px rgba(255, 143, 216, 0.5));
 }
 
 button {
@@ -253,7 +253,7 @@ button {
 }
 
 .yes-btn {
-    background: linear-gradient(135deg, #9ad0f5 0%, #6bbcf0 100%);
+    background: linear-gradient(135deg, #ff6fb5 0%, #c77dff 100%);
     color: white;
     position: relative;
     overflow: hidden;
@@ -276,7 +276,7 @@ button {
 
 .yes-btn:hover {
     transform: scale(1.12);
-    box-shadow: 0 12px 35px rgba(107, 188, 240, 0.5);
+    box-shadow: 0 12px 35px rgba(199, 125, 255, 0.6);
 }
 
 .yes-btn:active {
@@ -298,7 +298,7 @@ button {
     position: absolute;
     font-size: 2em;
     animation: float-up 2.5s ease-in forwards;
-    filter: drop-shadow(0 0 3px rgba(107, 188, 240, 0.6));
+    filter: drop-shadow(0 0 3px rgba(255, 143, 216, 0.8));
 }
 
 @keyframes float-up {
@@ -324,7 +324,7 @@ button {
 .response-message {
     font-size: 1.6em;
     font-weight: bold;
-    background: linear-gradient(135deg, #6bbcf0 0%, #9ad0f5 100%);
+    background: linear-gradient(135deg, #ff6fb5 0%, #c77dff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -391,7 +391,7 @@ button {
     border-bottom-right-radius: 6px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #9ad0f5; /* light blue envelope base */
+    background-color: #f9c5ff; /* soft pastel envelope base */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -405,16 +405,16 @@ button {
 .flap {
     border-left: 250px solid transparent;
     border-right: 250px solid transparent;
-    border-top: 160px solid #6bbcf0; /* light blue flap */
+    border-top: 160px solid #f3a1ff; /* pastel purple flap */
     transform-origin: top;
     pointer-events: none;
     transition: transform 0.6s ease;
 }
 
 .pocket {
-    border-left: 250px solid #cfe9ff; /* light blue sides */
-    border-right: 250px solid #cfe9ff;
-    border-bottom: 175px solid #9ad0f5; /* light blue pocket */
+    border-left: 250px solid #f7d0ff; /* pastel pink sides */
+    border-right: 250px solid #f7d0ff;
+    border-bottom: 175px solid #f9c5ff; /* pastel pocket */
     border-top: 175px solid transparent;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
@@ -529,7 +529,7 @@ button {
     top: 0;
     width: 50px;
     height: 80px;
-    background: #6bbcf0; /* light blue hearts */
+    background: #ff6fb5; /* pink hearts */
     border-radius: 50px 50px 0 0;
     transform: rotate(-45deg);
     transform-origin: 0 100%;
@@ -603,7 +603,7 @@ button {
 .letter-button {
     padding: 12px 35px;
     font-size: 1em;
-    background: linear-gradient(135deg, #9ad0f5 0%, #6bbcf0 100%);
+    background: linear-gradient(135deg, #ff6fb5 0%, #c77dff 100%);
     color: white;
     border: none;
     border-radius: 60px;
@@ -627,7 +627,7 @@ button {
     display: none;
     padding: 12px 35px;
     font-size: 1em;
-    background: linear-gradient(135deg, #9ad0f5 0%, #6bbcf0 100%);
+    background: linear-gradient(135deg, #ff6fb5 0%, #c77dff 100%);
     color: white;
     border: none;
     border-radius: 60px;
@@ -679,7 +679,7 @@ button {
 
 .scale-title {
     font-size: 2.2em;
-    background: linear-gradient(135deg, #5ac8fa 0%, #667eea 100%);
+    background: linear-gradient(135deg, #ff6fb5 0%, #c77dff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -706,7 +706,7 @@ button {
     max-width: 100%;
     max-height: 100%;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(98, 123, 233, 0.76);
+    box-shadow: 0 10px 30px rgba(199, 125, 255, 0.76);
 }
 
 .slider-container {
@@ -724,7 +724,7 @@ button {
     font-size: 1.3em;
     font-weight: bold;
     min-width: 50px;
-    background: linear-gradient(135deg, #6bbcf0 0%, #9ad0f5 100%);
+    background: linear-gradient(135deg, #ff6fb5 0%, #c77dff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -734,7 +734,7 @@ button {
     width: 100%;
     height: 12px;
     border-radius: 10px;
-    background: linear-gradient(90deg, #e0f2ff 0%, #b3e1ff 50%, #6bbcf0 100%);
+    background: linear-gradient(90deg, #ffe4f7 0%, #f9c5ff 50%, #c77dff 100%);
     outline: none;
     -webkit-appearance: none;
     appearance: none;
@@ -748,25 +748,25 @@ button {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #9ad0f5 0%, #6bbcf0 100%);
+    background: linear-gradient(135deg, #ff6fb5 0%, #c77dff 100%);
     cursor: grab;
-    box-shadow: 0 4px 12px rgba(98, 123, 233, 0.76);
+    box-shadow: 0 4px 12px rgba(199, 125, 255, 0.9);
     transition: all 0.2s ease;
     border: 3px solid white;
 }
 
 .slider::-webkit-slider-thumb:hover {
     transform: scale(1.2);
-    box-shadow: 0 6px 20px rgba(245, 87, 108, 0.6);
+    box-shadow: 0 6px 20px rgba(255, 143, 216, 0.7);
 }
 
 .slider::-moz-range-thumb {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #9ad0f5 0%, #6bbcf0 100%);
+    background: linear-gradient(135deg, #ff6fb5 0%, #c77dff 100%);
     cursor: grab;
-    box-shadow: 0 4px 12px rgba(98, 123, 233, 0.76);
+    box-shadow: 0 4px 12px rgba(199, 125, 255, 0.9);
     transition: all 0.2s ease;
     border: 3px solid white;
 }
@@ -787,7 +787,7 @@ button {
 .emoji.active {
     font-size: 2.2em;
     opacity: 1;
-    filter: drop-shadow(0 0 8px rgba(98, 123, 233, 0.76));
+    filter: drop-shadow(0 0 8px rgba(199, 125, 255, 0.9));
     animation: emojiPop 0.4s ease-out;
 }
 
@@ -804,7 +804,7 @@ button {
     font-size: 1.3em;
     margin-top: 30px;
     font-weight: 600;
-    background: linear-gradient(135deg, #5ac8fa 0%, #667eea 100%);
+    background: linear-gradient(135deg, #ff6fb5 0%, #c77dff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -822,7 +822,7 @@ button {
 .scale-btn-nav {
     padding: 12px 30px;
     font-size: 1em;
-    background: linear-gradient(135deg, #6bbcf0 0%, #9ad0f5 100%);
+    background: linear-gradient(135deg, #ff6fb5 0%, #c77dff 100%);
     color: white;
     border: none;
     border-radius: 50px;

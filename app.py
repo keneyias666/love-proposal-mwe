@@ -94,7 +94,7 @@ no_responses = [
 ]
 
 love_letter_content = """
-My Sweet Little Dumpling Aieleen 🥟🩵,
+My Sweet Little Carrot Yhasmine 🥕💜,
 
 First, AHHHHH! I still can't believe I can now call you my girlfriend. Because you answered yes, my heart is just bursting with joy!
 
@@ -103,14 +103,14 @@ I swear my heart is performing little somersaults right now, like a delighted ha
 
 Thank you for saying yes, allowing me to adore you, and being the outrageously cute individual that makes my life feel like a romantic comedy. When I think about you, I smile like an weirdo (no regrets 👾). You've practically transformed my heart into a warm, mushy marshmallow.
 
-I pledge to be the finest "dumpling holder" ever—to make you laugh until your cheeks ache, to make you feel like the main character (because you are), and to remind you every day how lucky I am to have you.
+I pledge to be the finest "carrot holder" ever—to make you laugh until your cheeks ache, to make you feel like the main character (because you are), and to remind you every day how lucky I am to have you.
 
 Here's to our adventures, inside jokes, random hugs, and late-night "I love yuzu's like the sour plums in Japan )). You're my favorite notification, my happy thought, and now… my girlfriend. 🫶💫
 
 Love,
 
 
-This is from your officially lovestruck, proudly dumpling-obsessed dorky nerd ELIAS. )) 🩵
+This is from your officially lovestruck, proudly carrot-obsessed dorky nerd ELIAS. )) 💜
 """
 
 @app.route('/')
@@ -166,8 +166,8 @@ happiness_responses = {
     '6': "You're making me so happy already! 💫",
     '7': "This makes me ecstatic! I love you! 🩵",
     '8': "Wow! You really make me the luckiest! 🍀",
-    '9': "Aww, I'm speechless! Thank you my dumpling 🫶",
-    '10': "🫶 I LOVE YOU MY DUMPLING!🩵☁️"
+    '9': "Aww, I'm speechless! Thank you my carrot 🫶",
+    '10': "🫶 I LOVE YOU MY CARROT!💜☁️"
 }
 
 @app.route('/api/happiness-response', methods=['POST'])
